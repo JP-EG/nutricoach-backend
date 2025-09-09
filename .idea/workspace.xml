@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09bfcb6e-185c-4dae-b1eb-9e99d75ddeee" name="Changes" comment="Deployed stack">
+    <list default="true" id="09bfcb6e-185c-4dae-b1eb-9e99d75ddeee" name="Changes" comment="Ensuring emails are sent out with confirmation code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +74,8 @@
       <workItem from="1757429592950" duration="22000" />
       <workItem from="1757429676383" duration="7000" />
       <workItem from="1757429690446" duration="7823000" />
+      <workItem from="1757447946641" duration="902000" />
+      <workItem from="1757449112519" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="Starter init">
       <option name="closed" value="true" />
@@ -91,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757438273747</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ensuring emails are sent out with confirmation code">
+      <option name="closed" value="true" />
+      <created>1757448041414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757448041414</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starter init" />
     <MESSAGE value="Deployed stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deployed stack" />
+    <MESSAGE value="Ensuring emails are sent out with confirmation code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ensuring emails are sent out with confirmation code" />
   </component>
 </project>

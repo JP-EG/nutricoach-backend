@@ -18,7 +18,7 @@ export class NutritionAuthenticationStack extends cdk.Stack {
       const pool = new cognito.UserPool(this, 'myuserpool', {
           userPoolName: 'auto-verify-userpool',
           selfSignUpEnabled: true,
-          signInAliases: { email: true },
+          signInAliases: { username: true },
           autoVerify: { email: true },
           standardAttributes: {
               email: { required: true, mutable: false },
