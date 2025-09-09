@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09bfcb6e-185c-4dae-b1eb-9e99d75ddeee" name="Changes" comment="Update to not auto verify email" />
+    <list default="true" id="09bfcb6e-185c-4dae-b1eb-9e99d75ddeee" name="Changes" comment="Adding xml to ignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,6 +77,7 @@
       <workItem from="1757449227333" duration="438000" />
       <workItem from="1757449893958" duration="379000" />
       <workItem from="1757450294758" duration="17000" />
+      <workItem from="1757450323131" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="Starter init">
       <option name="closed" value="true" />
@@ -118,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757450299207</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding xml to ignore">
+      <option name="closed" value="true" />
+      <created>1757450331570</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757450331570</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +174,7 @@
     <MESSAGE value="Deployed stack" />
     <MESSAGE value="Ensuring emails are sent out with confirmation code" />
     <MESSAGE value="Update to not auto verify email" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update to not auto verify email" />
+    <MESSAGE value="Adding xml to ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding xml to ignore" />
   </component>
 </project>
