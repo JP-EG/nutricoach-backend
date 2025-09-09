@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09bfcb6e-185c-4dae-b1eb-9e99d75ddeee" name="Changes" comment="Update to not auto verify email">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambdas/authentication/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdas/authentication/index.ts" afterDir="false" />
-    </list>
+    <list default="true" id="09bfcb6e-185c-4dae-b1eb-9e99d75ddeee" name="Changes" comment="Update to not auto verify email" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +76,7 @@
       <workItem from="1757449112519" duration="62000" />
       <workItem from="1757449227333" duration="438000" />
       <workItem from="1757449893958" duration="379000" />
+      <workItem from="1757450294758" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="Starter init">
       <option name="closed" value="true" />
@@ -112,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757449443112</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update to not auto verify email">
+      <option name="closed" value="true" />
+      <created>1757450299207</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757450299207</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +164,7 @@
     <MESSAGE value="Starter init" />
     <MESSAGE value="Deployed stack" />
     <MESSAGE value="Ensuring emails are sent out with confirmation code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ensuring emails are sent out with confirmation code" />
+    <MESSAGE value="Update to not auto verify email" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update to not auto verify email" />
   </component>
 </project>
