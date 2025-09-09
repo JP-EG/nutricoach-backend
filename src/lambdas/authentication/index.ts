@@ -3,7 +3,7 @@ export async function handler(event: any): Promise<any> {
         ...event,
         response: {
             autoConfirmUser: true,
-            autoVerifyEmail: true,
+            autoVerifyEmail: false,
         }
     }
 }
