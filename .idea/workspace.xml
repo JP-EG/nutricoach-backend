@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09bfcb6e-185c-4dae-b1eb-9e99d75ddeee" name="Changes" comment="Starter init">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/nutrition-authentication-stack.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/nutrition-infra-stack.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/nutrition-processing-stack.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/authentication/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/ingestDocument/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/processDocument/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/nutricoach-backend.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bin/nutricoach-backend.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/nutricoach-backend-stack.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="09bfcb6e-185c-4dae-b1eb-9e99d75ddeee" name="Changes" comment="Deployed stack">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +73,7 @@
       <workItem from="1757429577717" duration="6000" />
       <workItem from="1757429592950" duration="22000" />
       <workItem from="1757429676383" duration="7000" />
-      <workItem from="1757429690446" duration="5821000" />
+      <workItem from="1757429690446" duration="7823000" />
     </task>
     <task id="LOCAL-00001" summary="Starter init">
       <option name="closed" value="true" />
@@ -94,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757425856298</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Deployed stack">
+      <option name="closed" value="true" />
+      <created>1757438273747</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757438273747</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +135,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starter init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starter init" />
+    <MESSAGE value="Deployed stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deployed stack" />
   </component>
 </project>
