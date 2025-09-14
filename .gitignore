@@ -10,3 +10,4 @@ cdk.out
 .env
 .idea/workspace.xml
 *.xml
+*.xml

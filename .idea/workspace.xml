@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09bfcb6e-185c-4dae-b1eb-9e99d75ddeee" name="Changes" comment="Adding xml to ignore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambdas/authentication/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdas/authentication/index.ts" afterDir="false" />
-    </list>
+    <list default="true" id="09bfcb6e-185c-4dae-b1eb-9e99d75ddeee" name="Changes" comment="Adding xml to ignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,21 +33,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/jakubbojarski/Documents/GitHub/Nutricoach-Backend/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "NC01-Uploading-onto-S3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/jakubbojarski/Documents/GitHub/Nutricoach-Backend/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lambdas/authentication" />
@@ -89,6 +84,7 @@
       <workItem from="1757590082818" duration="7000" />
       <workItem from="1757590180142" duration="53000" />
       <workItem from="1757590250494" duration="376000" />
+      <workItem from="1757851291580" duration="5387000" />
     </task>
     <task id="LOCAL-00001" summary="Starter init">
       <option name="closed" value="true" />
@@ -177,6 +173,13 @@
         <option value="$PROJECT_DIR$/src/lambdas/ingestDocument/index.d.ts" />
         <option value="$PROJECT_DIR$/src/lambdas/processDocument/index.js" />
         <option value="$PROJECT_DIR$/src/lambdas/processDocument/index.d.ts" />
+        <option value="$PROJECT_DIR$/bin/nutricoach-backend.js" />
+        <option value="$PROJECT_DIR$/lib/nutrition-infra-stack.js" />
+        <option value="$PROJECT_DIR$/lib/nutrition-authentication-stack.js" />
+        <option value="$PROJECT_DIR$/lib/nutrition-processing-stack.js" />
+        <option value="$PROJECT_DIR$/src/lambdas/authentication/index.js" />
+        <option value="$PROJECT_DIR$/src/lambdas/processDocument/index.js" />
+        <option value="$PROJECT_DIR$/src/lambdas/ingestDocument/index.js" />
       </list>
     </option>
   </component>
