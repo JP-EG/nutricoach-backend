@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09bfcb6e-185c-4dae-b1eb-9e99d75ddeee" name="Changes" comment="Adding xml to ignore" />
+    <list default="true" id="09bfcb6e-185c-4dae-b1eb-9e99d75ddeee" name="Changes" comment="Adding xml to ignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambdas/authentication/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdas/authentication/index.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +83,12 @@
       <workItem from="1757449893958" duration="379000" />
       <workItem from="1757450294758" duration="17000" />
       <workItem from="1757450323131" duration="22000" />
+      <workItem from="1757451762722" duration="2394000" />
+      <workItem from="1757588863844" duration="201000" />
+      <workItem from="1757590071225" duration="4000" />
+      <workItem from="1757590082818" duration="7000" />
+      <workItem from="1757590180142" duration="53000" />
+      <workItem from="1757590250494" duration="376000" />
     </task>
     <task id="LOCAL-00001" summary="Starter init">
       <option name="closed" value="true" />
