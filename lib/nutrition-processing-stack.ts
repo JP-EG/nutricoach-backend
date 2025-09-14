@@ -20,18 +20,6 @@ export class NutritionProcessingStack extends cdk.Stack {
 
         const { ingestBucketArn, table, notificationTopic } = props;
 
-        // Ingest Lambda
-        this.ingestDocumentLambda = new lambda.Function(this, 'IngestDocumentLambda', {
-            functionName: 'IngestDocumentLambda',
-            runtime: lambda.Runtime.NODEJS_LATEST,
-            handler: 'src/lambdas/ingestDocument/index.handler',
-            code: new AssetCode(`dist/ingestDocument`),
-            environment: {
-                TABLE_NAME: table.tableName,
-                NOTIFICATION_TOPIC_ARN: notificationTopic.topicArn
-            }
-        });
-
         // Process Receipt Lambda
         const processDocumentLambda = new lambda.Function(this, 'ProcessDocumentLambda', {
             functionName: 'ProcessDocumentLambda',
@@ -41,16 +29,6 @@ export class NutritionProcessingStack extends cdk.Stack {
             environment: {
                 TABLE_NAME: table.tableName
             }
-        });
-
-        // Permissions
-        table.grantReadWriteData(this.ingestDocumentLambda);
-        notificationTopic.grantPublish(this.ingestDocumentLambda);
-
-        // Trigger ingestLambda on new uploads
-        this.ingestDocumentLambda.addPermission('S3InvokePermission', {
-            principal: new iam.ServicePrincipal('s3.amazonaws.com'),
-            sourceArn: ingestBucketArn,
         });
     }
 }

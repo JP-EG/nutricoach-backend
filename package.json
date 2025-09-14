@@ -5,7 +5,7 @@
     "nutricoach-backend": "bin/nutricoach-backend.js"
   },
   "scripts": {
-    "build": "tsc && webpack --mode=development",
+    "build": "webpack --mode=development",
     "watch": "tsc -w",
     "test": "jest",
     "cdk": "cdk",
@@ -24,6 +24,11 @@
   },
   "dependencies": {
     "@aws-sdk/client-cognito-identity-provider": "^3.886.0",
+    "@aws-sdk/client-rekognition": "^3.888.0",
+    "@aws-sdk/client-s3": "^3.888.0",
+    "@aws-sdk/client-sns": "^3.888.0",
+    "@aws-sdk/client-textract": "^3.888.0",
+    "@aws-sdk/lib-dynamodb": "^3.888.0",
     "aws-cdk-lib": "2.208.0",
     "constructs": "^10.0.0",
     "webpack": "^5.101.3"
